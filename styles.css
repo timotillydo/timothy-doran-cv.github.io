@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap");
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+div,
+img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.02em;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+body {
+  width: 1240px;
+  height: 1754px;
+  margin: 3% auto;
+  box-shadow: 7px 7px 7px rgb(73, 73, 73);
+}
+header {
+  height: 15%;
+  background: rgb(57, 40, 87);
+  color: #f0f8ff;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+}
+.my-name {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 4em;
+  white-space: nowrap;
+}
+.dev-title {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 1.5em;
+  padding-top: 1%;
+  white-space: nowrap;
+  color: rgb(238, 192, 106);
+}
+.about-me {
+  font-size: 1.4em;
+  padding: 2% 0;
+  width: 85%;
+  text-indent: 10px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.1em;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background: rgb(26, 28, 105);
+}
+.contact li a {
+  font-size: 1.5em;
+  color: aliceblue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* i {
+  margin: 0 0.5em;
+} */
+.icon {
+  color: aliceblue;
+  height: 1.2em;
+  margin: -0.2em 0.5em 0 0.5em;
+  padding: 0.3em 0;
+}
+main {
+  height: 72.8%;
+  font-size: 1.5em;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-column-gap: 2em;
+  color: rgb(26, 26, 26);
+  background: rgb(231, 218, 235);
+}
+.column-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+.column-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+}
+section {
+  margin-bottom: 1.5em;
+}
+section h2,
+section h3,
+section h4 {
+  margin-bottom: 0.6em;
+  white-space: nowrap;
+}
+section h2 {
+  text-decoration: underline;
+  font-size: 1.3em;
+}
+section h4 {
+  margin-top: 0.6em;
+  font-size: 0.9em;
+}
+section ul {
+  padding-left: 1em;
+  list-style: none;
+}
+.tech-skills ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tech-skills ul li {
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0.3em;
+  margin: 0.15em 0.15em;
+  background: rgb(238, 192, 106);
+  border-radius: 0.4em;
+}
+.experience span {
+  font-weight: bold;
+}
+.experience-list {
+  line-height: 1.2em;
+}
+.experience-item {
+  margin-top: 0.6em;
+}
+.experience-list li p {
+  font-style: italic;
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+}
+.experience-list li ul {
+  font-size: 0.9em;
+}
+.education ul li {
+  margin: 0.6em 0;
+}
+.interests ul {
+  padding: 0;
+  margin: 0;
+}
+.interests ul li {
+  margin: 0.6em;
+  font-size: 0.9em;
+}
