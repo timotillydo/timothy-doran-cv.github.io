@@ -78,9 +78,9 @@ header {
   padding: 0.3em 0;
 }
 main {
-  height: 72.8%;
+  height: 75.5%;
   font-size: 1.5em;
-  padding: 5%;
+  padding: 1.5em 3em;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-column-gap: 2em;
@@ -120,6 +120,15 @@ section h4 {
 section ul {
   padding-left: 1em;
   list-style: none;
+}
+.projects {
+  margin-top: 0.6em;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  
+}
+.projects-container {
+  margin-left: 1em;
 }
 .tech-skills ul {
   display: flex;
