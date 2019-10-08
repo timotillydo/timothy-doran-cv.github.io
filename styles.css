@@ -23,14 +23,14 @@ img {
 body {
   width: 1240px;
   height: 1754px;
-  margin: 3% auto;
+  margin: 3em auto;
   box-shadow: 7px 7px 7px rgb(73, 73, 73);
 }
 header {
-  height: 15%;
+  height: 17em;
   background: rgb(57, 40, 87);
   color: #f0f8ff;
-  padding: 2% 5% 2% 5%;
+  padding: 1em 2em 1em 2em;
   text-align: center;
 }
 .my-name {
@@ -41,14 +41,14 @@ header {
 .dev-title {
   font-family: "Ropa Sans", sans-serif;
   font-size: 1.5em;
-  padding-top: 1%;
+  padding-top: .5em;
   white-space: nowrap;
   color: rgb(238, 192, 106);
 }
 .about-me {
   font-size: 1.4em;
-  padding: 2% 0;
-  width: 85%;
+  padding: 1em 0;
+  width: 42em;
   text-indent: 10px;
   text-align: center;
   margin: 0 auto;
@@ -78,9 +78,9 @@ header {
   padding: 0.3em 0;
 }
 main {
-  height: 75.5%;
+  height: 1345px;
   font-size: 1.5em;
-  padding: 1.5em 3em;
+  padding: 1em 3em;
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-column-gap: 2em;
@@ -101,7 +101,7 @@ main {
   padding-left: 1em;
 }
 section {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 section h2,
 section h3,
